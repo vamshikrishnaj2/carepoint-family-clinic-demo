@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-brand-primary: #0f766e; /* teal-700 */
+  --color-brand-accent: #0284c7; /* sky-600 */
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  /* Accessible focus rings */
+  :focus-visible {
+    outline: 2px solid #0f766e;
+    outline-offset: 2px;
+  }
+}
+
+/* Accessible larger text mode */
+body.accessible-large-text {
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+body.accessible-large-text h1 {
+  font-size: 2.75rem;
+}
+
+body.accessible-large-text h2 {
+  font-size: 2.25rem;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CarePoint Family Clinic",
+  "description": "A fictional portfolio demonstration website for CarePoint Family Clinic showcasing accessible family healthcare information, service listings, clinic details, and appointment enquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
